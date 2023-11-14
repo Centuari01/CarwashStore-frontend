@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --space-cadet: #2d3047ff;
+  --glaucous: #7d8cc4ff;
+  --light-orange: #ffd8adff;
+  --turquoise: #09d7c3ff;
+  --blush: #F6E8EA;
+}
+
+body {
+background-color: var(--blush);
+color: var(--space-cadet);
+}

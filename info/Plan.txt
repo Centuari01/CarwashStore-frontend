@@ -1,0 +1,35 @@
+Car Wash Store {
+  
+  Header {
+    Logo
+
+    Links {
+      About
+      Contact
+      Profile
+    }
+  }
+  
+  Body
+  
+  About
+  
+  Reviews
+  
+  Contact {
+    Wash type
+    Sign-up
+    payment {
+      Card
+      Cash
+    }
+    Description
+    Adresss
+  }
+
+  Footer {
+    Jobs
+
+  }
+
+}
