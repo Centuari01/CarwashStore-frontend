@@ -1,9 +1,12 @@
 import React from 'react'
 import './Body.css'
+import Image from 'next/image'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <div className='h-full w-full'>
+      
+    </div>
   )
 }
 
