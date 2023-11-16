@@ -78,5 +78,6 @@
 
 
 body {
-  background-color: var(--light-orange);
+  background-color: var(--space-cadet);
+  color: var(--white);
 }
