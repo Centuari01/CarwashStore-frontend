@@ -64,10 +64,13 @@ const SheetContent = React.forwardRef<
       {...props}
     >
       {children}
-      <SheetPrimitive.Close className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary">
-        <Image src="/cross.png" width={32} height={32} alt=""/>
-        <span className="sr-only">Close</span>
-      </SheetPrimitive.Close>
+      <div className="absolute -top-1 -right-2">
+        <SheetPrimitive.Close>
+          <Image src="/crosslight.png" width={42} height={42} alt="" className="relative top-8 right-8"/>
+          <span className="sr-only">Close</span>
+          
+        </SheetPrimitive.Close>
+      </div>
     </SheetPrimitive.Content>
   </SheetPortal>
 ))

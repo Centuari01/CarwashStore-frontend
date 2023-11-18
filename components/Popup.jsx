@@ -2,9 +2,6 @@ import React from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Image from "next/image";
@@ -14,7 +11,7 @@ const Popup = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Image src="/menu.png" alt="delete" width={48} height={48} />
+        <Image src="/menulight.png" alt="delete" width={40} height={40} />
       </SheetTrigger>
       <SheetContent>
         <div className="mt-16 flex justify-between flex-col items-start gap-y-6 text-lg">

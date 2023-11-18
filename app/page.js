@@ -9,8 +9,12 @@ import Footer from "../containers/Footer/Footer";
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Body />
+      <div className="Image">
+        <div className="Image-Blur">
+          <Header />
+          <Body />
+        </div>
+      </div>
       <About />
       <Reviews />
       <Contact />
