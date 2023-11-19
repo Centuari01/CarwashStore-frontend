@@ -17,6 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        bg: "#044863",
         space_cadet: {
           DEFAULT: "#2d3047",
           100: "#090a0e",

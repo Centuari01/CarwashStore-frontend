@@ -40,18 +40,19 @@
   color: var(--accent);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .Header--Links--Container {
     display: none;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .Header--Container {
     width: 100%;
+    padding: .75rem 2rem;
   }
   
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   .Popup--Container {
     display: none;
   }
